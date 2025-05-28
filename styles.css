@@ -1,0 +1,92 @@
+.body {
+    background-color: lightgrey;
+    padding: 0;
+    margin: 0;
+}
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.contact-section p {
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 30px;
+}
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+.contact-card i {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 10px;
+}
+.contact-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1px;
+    transition: border-color 0.3s;
+}
+form input:focus, form textarea:focus {
+    border-color: red;
+    background-color: #fff;
+}
+form input::placeholder {
+    color: black;
+    font-size: 1em;
+    opacity: 1;
+}
+form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
